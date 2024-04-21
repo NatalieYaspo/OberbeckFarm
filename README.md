@@ -1,8 +1,29 @@
-# React + Vite
+# Oberbeck Farm Neighborhood Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+I basic website for the Oberbeck Farm Neighbors to view relivant information about the neighborhood, upcoming events, contact board members, or find information on paying annual dues.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+URL:
+
+## Usage
+
+Utilize tabs to view respective information.
+
+## Credits
+
+Developer: Natalie Yaspo
+- https://github.com/NatalieYaspo
+
+## License
+
+MIT
