@@ -22,29 +22,29 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        index: true,
-        element: <AboutMePage/>,//RENAME
-      },
-      {
-        path: 'aboutme',
-        element: <AboutMePage />,//RENAME
-      },
-      {
-        path: 'portfolio',
-        element: <PortfolioPage />,//RENAME
-      },
-      {
-        path: 'contact',
-        element: <ContactPage />,//RENAME
-      },
-      {
-        path: 'resume',
-        element: <ResumePage />, //RENAME
-      },
-    ],
+    // errorElement: <ErrorPage />,
+    // children: [
+      // {
+      //   index: true,
+      //   element: <AboutMePage/>,//RENAME
+      // },
+      // {
+      //   path: 'aboutme',
+      //   element: <AboutMePage />,//RENAME
+      // },
+      // {
+      //   path: 'portfolio',
+      //   element: <PortfolioPage />,//RENAME
+      // },
+      // {
+      //   path: 'contact',
+      //   element: <ContactPage />,//RENAME
+      // },
+      // {
+      //   path: 'resume',
+      //   element: <ResumePage />, //RENAME
+      // },
+    // ],
   },
 ]);
 
