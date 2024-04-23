@@ -17,9 +17,40 @@ import App from './App.jsx'  //Main page
 // import ContactPage from './pages/ContactPage';
 // import ResumePage from './pages/ResumePage';
 
+// Define the accessible routes, and which components respond to which URL
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        index: true,
+        element: <AboutMePage/>,//RENAME
+      },
+      {
+        path: 'aboutme',
+        element: <AboutMePage />,//RENAME
+      },
+      {
+        path: 'portfolio',
+        element: <PortfolioPage />,//RENAME
+      },
+      {
+        path: 'contact',
+        element: <ContactPage />,//RENAME
+      },
+      {
+        path: 'resume',
+        element: <ResumePage />, //RENAME
+      },
+    ],
+  },
+]);
 
+
+
+// Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <RouterProvider router={router} />
 )
