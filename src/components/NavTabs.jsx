@@ -6,32 +6,33 @@ function NavTabs() {
   return (
     <nav className="navbar navbar-expand-lg bg-light fixed-top" data-bs-theme="light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/"><img src="../Logo.png" /></a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <a className="navbar-brand" href="/"><img src="../Logo.png" width="125"/></a>
+        {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarColor03">
+        </button> */}
+        <div className="collapse navbar-collapse position-absolute end-0" id="navbarColor03">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <a className="nav-link active" href="#">Home
+              <a className="nav-link active" href="/">Home
                 <span className="visually-hidden">(current)</span>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
+              <a className="nav-link" href="#">Dues Info</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
+              <a className="nav-link" href="#">Neighborhood Events</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <a className="nav-link" href="#">Board Members</a>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
               <div className="dropdown-menu">
-                <a className="dropdown-item" href="#">Action</a>
-                <a className="dropdown-item" href="#">Another action</a>
-                <a className="dropdown-item" href="#">Something else here</a>
+                <a className="dropdown-item" href="#">New Resident Information</a>
+                <a className="dropdown-item" href="#">Annual Meeting Minutes</a>
+                <a className="dropdown-item" href="#">Directory</a>
+                <a className="dropdown-item" href="#">Vendor Recommendations</a>
                 <div className="dropdown-divider"></div>
                 <a className="dropdown-item" href="#">Separated link</a>
               </div>
