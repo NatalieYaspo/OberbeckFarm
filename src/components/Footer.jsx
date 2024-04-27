@@ -22,7 +22,7 @@ function Footer() {
                     <li class="nav-item me-3"><a className="text-secondary" href="https://www.facebook.com/people/Oberbeck-Farm/100064750387312/"><i className="bi bi-facebook" width="24" height="24"></i></a></li>
                     <li class="nav-item"><a className="text-secondary" href="mailto:oberbeckfarmneighbors@gmail.com"><i className="bi bi-envelope" width="24" height="24"></i></a></li>
                 </ul>
-                <p class="text-center text-body-secondary">© 2024 Natalie Yaspo</p>
+                <p class="text-center text-body-secondary">© 2024 Château Trâspo</p>
             </footer>
         </div>
 
