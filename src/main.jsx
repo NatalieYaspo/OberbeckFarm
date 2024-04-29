@@ -14,9 +14,9 @@ import App from './App.jsx'  //Main page
 //RENAME BELOW PAGES FOR WHAT WE NEED
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
-// import PortfolioPage from './pages/PortfolioPage';
-// import ContactPage from './pages/ContactPage';
-// import ResumePage from './pages/ResumePage';
+import DuesInfoPage from './pages/DuesInfoPage';
+import EventsPage from './pages/EventsPage';
+import BoardMembersPage from './pages/BoardMembersPage';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -31,20 +31,20 @@ const router = createBrowserRouter([
       },
       {
         path: 'home',
-        element: <HomePage />,//RENAME
+        element: <HomePage />,
       },
-      // {
-      //   path: 'portfolio',
-      //   element: <PortfolioPage />,//RENAME
-      // },
-      // {
-      //   path: 'contact',
-      //   element: <ContactPage />,//RENAME
-      // },
-      // {
-      //   path: 'resume',
-      //   element: <ResumePage />, //RENAME
-      // },
+      {
+        path: 'duesinfo',
+        element: <DuesInfoPage />,
+      },
+      {
+        path: 'events',
+        element: <EventsPage />,
+      },
+      {
+        path: 'boardmembers',
+        element: <BoardMembersPage />,
+      },
     ],
   },
 ]);

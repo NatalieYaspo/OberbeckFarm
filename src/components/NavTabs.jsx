@@ -18,13 +18,13 @@ function NavTabs() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Dues Info</a>
+              <a className="nav-link" href="/duesinfo">Dues Info</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Neighborhood Events</a>
+              <a className="nav-link" href="/events">Neighborhood Events</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Board Members</a>
+              <a className="nav-link" href="/boardmembers">Board Members</a>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
