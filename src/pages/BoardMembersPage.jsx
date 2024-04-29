@@ -1,18 +1,113 @@
 export default function Home() {
-    return (
-      <div className="container col-xxl-8 px-4 py-5">
-        <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div className="col-10 col-sm-8 col-lg-4 px-4">
-            {/* <img src={Image} className="d-block mx-lg-auto img-fluid shadow p-3 mb-5 bg-white rounded" width={700} height={500} /> */}
+  return (
+    <div>
+      {/* <section className="py-5 text-center container"> */}
+        <div className="row py-lg-5 py-5 text-center container">
+          <div className="col-lg-8 col-md-8 mx-auto">
+            <h1 className="fw-light">Meet Our Board Members</h1>
+            {/* <p className="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p> */}
+            <p>
+              <a href="mailto:oberbeckfarmneighbors@gmail.com" className="btn btn-primary my-2">Contact the Board</a>
+              {/* <a href="#" className="btn btn-secondary my-2">Secondary action</a> */}
+            </p>
           </div>
-          <div className="col-lg-8 px-4">
-            <h1 className="display-5 fw-bold text-primary lh-1 mb-3">BoardMembers</h1>
-            <p className="lead text-light">SOme information about the neighborhood.
-              <br></br>
-              <br></br>
-              We will figure something out to go here.</p>
+        </div>
+      {/* </section> */}
+
+      <div className="album py-1">
+        <div className="container">
+
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+            <div className="col">
+              <div className="card shadow-sm">
+                <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div className="card-body">
+                  <h4>PRESIDENT</h4>
+                  <br></br>
+                  <p className="card-text">Natalie Yaspo</p>
+                  {/* <div className="d-flex justify-content-between align-items-center"> */}
+                  {/* <div className="btn-group">
+                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small className="text-body-secondary">9 mins</small> */}
+                  {/* </div> */}
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card shadow-sm">
+                <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div className="card-body">
+                  <h4>VICE PRESIDENT</h4>
+                  <p className="card-text"><small>& Social Committee Chair </small><br></br>Lidsay Paquette</p>
+                  {/* <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small className="text-body-secondary">9 mins</small>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card shadow-sm">
+                <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div className="card-body">
+                  <h4>TREASURER</h4>
+                  <br></br>
+                  <p className="card-text">Jean Kochick</p>
+                  {/* <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small className="text-body-secondary">9 mins</small>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card shadow-sm">
+                <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div className="card-body">
+                  <h4>SECRETARY</h4>
+                  <br></br>
+                  <p className="card-text">Heather Bailey</p>
+                  {/* <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small className="text-body-secondary">9 mins</small>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row py-5">
+            <div className="col">
+              <div className="card shadow-sm">
+                <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div className="card-body">
+                  <h4>FRONT ENTRANCE COMMITTEE LEADS</h4>
+                  <p className="card-text">Kathy Baron & Dotty Hedberg</p>
+                  {/* <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small className="text-body-secondary">9 mins</small>
+                  </div> */}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
