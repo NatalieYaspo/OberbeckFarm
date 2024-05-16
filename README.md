@@ -2,7 +2,7 @@
 
 ## Description
 
-I basic website for the Oberbeck Farm Neighbors to view relivant information about the neighborhood, upcoming events, contact board members, or find information on paying annual dues.
+A basic website for the Oberbeck Farm Neighbors to view relivant information about the neighborhood, upcoming events, contact board members, or find information on paying annual dues.
 
 ## Table of Contents
 
