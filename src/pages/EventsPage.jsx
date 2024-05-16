@@ -1,3 +1,15 @@
+import NatalieYaspo from '../images/BoardMembers/NatalieYaspo.jpg'
+// 2024 Annual Meeting Images
+import AM24A from '../images/EventPics/2024_AnnualMtg/IMG_1749.jpg'
+import AM24B from '../images/EventPics/2024_AnnualMtg/IMG_1750.jpg'
+
+// 2024 Spring BBQ Images
+import SPBBQA from '../images/EventPics/2024_SpringBBQ/IMG_0250.jpg'
+// import SPBBQB from '../images/EventPics/2024_SpringBBQ/IMG_0251.jpg'
+// import SPBBQC from '../images/EventPics/2024_SpringBBQ/IMG_0252.jpg'
+// import SPBBQD from '../images/EventPics/2024_SpringBBQ/IMG_0254.jpg'
+
+
 export default function Events() {
   return (
     <div>
@@ -9,7 +21,7 @@ export default function Events() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item">
-            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns={NatalieYaspo} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
             <div className="container">
               <div className="carousel-caption text-start">
                 <h1>Example headline.</h1>
@@ -19,7 +31,7 @@ export default function Events() {
             </div>
           </div>
           <div className="carousel-item active">
-            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns={NatalieYaspo} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
             <div className="container">
               <div className="carousel-caption">
                 <h1>Another example headline.</h1>
@@ -29,7 +41,7 @@ export default function Events() {
             </div>
           </div>
           <div className="carousel-item">
-            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns={NatalieYaspo} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
             <div className="container">
               <div className="carousel-caption text-end">
                 <h1>One more for good measure.</h1>
@@ -52,16 +64,16 @@ export default function Events() {
       <div className="container marketing">
 
 
-        <div className="row">
+        <div className="row p-5">
           <div className="col-lg-4">
-            <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 className="fw-normal">Heading</h2>
+            <img className="rounded-circle" width="140" height="140" src={AM24A} />
+            <h2 className="fw-normal">2024 Annual Meeting</h2>
             <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
             <p><a className="btn btn-secondary" href="#">View details »</a></p>
           </div>
           <div className="col-lg-4">
-            <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 className="fw-normal">Heading</h2>
+            <img className="rounded-circle" width="140" height="140" src={SPBBQA} />
+            <h2 className="fw-normal">2024 Spring BBQ</h2>
             <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
             <p><a className="btn btn-secondary" href="#">View details »</a></p>
           </div>
