@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Board() {
   return (
     <div>
       {/* <section className="py-5 text-center container"> */}

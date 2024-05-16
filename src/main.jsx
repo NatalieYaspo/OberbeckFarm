@@ -17,6 +17,7 @@ import HomePage from './pages/HomePage';
 import DuesInfoPage from './pages/DuesInfoPage';
 import EventsPage from './pages/EventsPage';
 import BoardMembersPage from './pages/BoardMembersPage';
+import NewResidentInfoPage from './pages/NewResidentInfoPage';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: 'boardmembers',
         element: <BoardMembersPage />,
+      },
+      {
+        path: 'newresidentinfo',
+        element: <NewResidentInfoPage />,
       },
     ],
   },

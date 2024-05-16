@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Events() {
   return (
     <div>
       <div id="myCarousel" className="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
