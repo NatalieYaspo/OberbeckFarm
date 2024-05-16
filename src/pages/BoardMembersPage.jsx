@@ -1,3 +1,5 @@
+import NatalieYaspo from '../images/BoardMembers/NatalieYaspo.jpg'
+
 export default function Board() {
   return (
     <div>
@@ -20,9 +22,9 @@ export default function Board() {
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
             <div className="col">
               <div className="card shadow-sm">
-                <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={NatalieYaspo} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />
                 <div className="card-body">
-                  <h4>PRESIDENT</h4>
+                  <h4>President</h4>
                   <br></br>
                   <p className="card-text">Natalie Yaspo</p>
                   {/* <div className="d-flex justify-content-between align-items-center"> */}
@@ -39,7 +41,7 @@ export default function Board() {
               <div className="card shadow-sm">
                 <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
                 <div className="card-body">
-                  <h4>VICE PRESIDENT</h4>
+                  <h4>Vice President</h4>
                   <p className="card-text"><small>& Social Committee Chair </small><br></br>Lidsay Paquette</p>
                   {/* <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
@@ -55,7 +57,7 @@ export default function Board() {
               <div className="card shadow-sm">
                 <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
                 <div className="card-body">
-                  <h4>TREASURER</h4>
+                  <h4>Treasurer</h4>
                   <br></br>
                   <p className="card-text">Jean Kochick</p>
                   {/* <div className="d-flex justify-content-between align-items-center">
@@ -73,7 +75,7 @@ export default function Board() {
               <div className="card shadow-sm">
                 <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
                 <div className="card-body">
-                  <h4>SECRETARY</h4>
+                  <h4>Secretary</h4>
                   <br></br>
                   <p className="card-text">Heather Bailey</p>
                   {/* <div className="d-flex justify-content-between align-items-center">
@@ -93,7 +95,7 @@ export default function Board() {
               <div className="card shadow-sm">
                 <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
                 <div className="card-body">
-                  <h4>FRONT ENTRANCE COMMITTEE LEADS</h4>
+                  <h4>Front Entrance Committee Leads</h4>
                   <p className="card-text">Kathy Baron & Dotty Hedberg</p>
                   {/* <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
